@@ -3,6 +3,11 @@ package io.w1ldy0uth.codeforces.TooLongWords;
 import java.util.*;
 
 public class TooLongWordsTask {
+    // Auxiliary method for running on codeforces.com. Use solve() method for testing 
+    public static void main(String[] args) {
+        solve();
+    }
+
     public static void solve() {
         Scanner sc = new Scanner(System.in);
         int wordsNumber = sc.nextInt();
@@ -21,10 +26,5 @@ public class TooLongWordsTask {
         for (String word : output) {
             System.out.println(word);
         }
-    }
-
-    // Auxiliary method for running on codeforces.com. Use solve() method for testing 
-    public static void main(String[] args) {
-        solve();
     }
 }
